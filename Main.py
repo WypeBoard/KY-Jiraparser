@@ -10,5 +10,5 @@ if __name__ == '__main__':
     jira = JIRA(config.server_options, basic_auth=config.user)
     bugs = jira_bug.jira_bug(jira, config)
     bugs.run()
-    tests = jira_test.jira_test(jira, config)
-    tests.run()
+    #tests = jira_test.jira_test(jira, config)
+    #tests.run()
